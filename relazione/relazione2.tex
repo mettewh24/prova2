@@ -21,73 +21,39 @@
 Nella configurazione con $I_b=200\mu A$, si misurano i seguenti valori per $V_{ce}$ e $I_c$:
 \begin{table}[H]
     \centering
-    \begin{tabular}{|c|c|c|c|}
+    \begin{tabular}{|c|c|c|c|c|c|c|c|}
         \hline
-        $V_{ce}$ (mV) & Errore V (mV) & Risoluzione (mV) & Fondo scala (mV/div) \\ \hline
-        4000          & 160           & 200              & 1000                 \\ \hline
-        3800          & 150           & 200              & 1000                 \\ \hline
-        3600          & 150           & 200              & 1000                 \\ \hline
-        3400          & 143           & 200              & 1000                 \\ \hline
-        3200          & 139           & 200              & 1000                 \\ \hline
-        3000          & 135           & 200              & 1000                 \\ \hline
-        2900          & 100           & 200              & 1000                 \\ \hline
-        2700          & 95            & 200              & 1000                 \\ \hline
-        2500          & 90            & 100              & 500                  \\ \hline
-        2400          & 88            & 100              & 500                  \\ \hline
-        2200          & 83            & 100              & 500                  \\ \hline
-        2000          & 78            & 100              & 500                  \\ \hline
-        1900          & 76            & 100              & 500                  \\ \hline
-        1700          & 71            & 100              & 500                  \\ \hline
-        1500          & 67            & 100              & 500                  \\ \hline
-        1400          & 65            & 100              & 500                  \\ \hline
-        1200          & 41            & 40               & 200                  \\ \hline
-        1120          & 39            & 40               & 200                  \\ \hline
-        1000          & 36            & 40               & 200                  \\ \hline
-        800           & 31            & 40               & 200                  \\ \hline
-        720           & 29            & 40               & 200                  \\ \hline
-        500           & 18            & 20               & 100                  \\ \hline
-        400           & 16            & 20               & 100                  \\ \hline
-        300           & 10            & 10               & 50                   \\ \hline
-        200           & 7.8           & 10               & 50                   \\ \hline
-        50            & 5.2           & 10               & 50                   \\ \hline
+        $V_{ce}$ (mV) & \begin{tabular}[c]{@{}c@{}}Errore V \\ (mV)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Risoluzione \\ (mV)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Fondo scala \\ (mV/div)\end{tabular} & $I_c$ (mA) & \begin{tabular}[c]{@{}c@{}}errore $I_c$  \\ (mA)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Risoluzione \\ (mA)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Fondo scala \\ (mA)\end{tabular} \\ \hline
+        4000          & 160                       & 200                       & 1000                      & 36.9       & 0.18                      & 0.1                       & 200                       \\ \hline
+        3800          & 150                       & 200                       & 1000                      & 36.5       & 0.18                      & 0.1                       & 200                       \\ \hline
+        3600          & 150                       & 200                       & 1000                      & 36         & 0.18                      & 0.1                       & 200                       \\ \hline
+        3400          & 143                       & 200                       & 1000                      & 35.6       & 0.18                      & 0.1                       & 200                       \\ \hline
+        3200          & 139                       & 200                       & 1000                      & 35.1       & 0.18                      & 0.1                       & 200                       \\ \hline
+        3000          & 135                       & 200                       & 1000                      & 34.7       & 0.17                      & 0.1                       & 200                       \\ \hline
+        2900          & 100                       & 200                       & 1000                      & 34.6       & 0.17                      & 0.1                       & 200                       \\ \hline
+        2700          & 95                        & 200                       & 1000                      & 34.2       & 0.17                      & 0.1                       & 200                       \\ \hline
+        2500          & 90                        & 100                       & 500                       & 33.6       & 0.17                      & 0.1                       & 200                       \\ \hline
+        2400          & 88                        & 100                       & 500                       & 33.6       & 0.17                      & 0.1                       & 200                       \\ \hline
+        2200          & 83                        & 100                       & 500                       & 33.1       & 0.17                      & 0.1                       & 200                       \\ \hline
+        2000          & 78                        & 100                       & 500                       & 32.5       & 0.16                      & 0.1                       & 200                       \\ \hline
+        1900          & 76                        & 100                       & 500                       & 32.5       & 0.16                      & 0.1                       & 200                       \\ \hline
+        1700          & 71                        & 100                       & 500                       & 32         & 0.16                      & 0.1                       & 200                       \\ \hline
+        1500          & 67                        & 100                       & 500                       & 31.4       & 0.16                      & 0.1                       & 200                       \\ \hline
+        1400          & 65                        & 100                       & 500                       & 31.2       & 0.16                      & 0.1                       & 200                       \\ \hline
+        1200          & 41                        & 40                        & 200                       & 30.8       & 0.15                      & 0.1                       & 200                       \\ \hline
+        1120          & 39                        & 40                        & 200                       & 30.6       & 0.15                      & 0.1                       & 200                       \\ \hline
+        1000          & 36                        & 40                        & 200                       & 30.2       & 0.15                      & 0.1                       & 200                       \\ \hline
+        800           & 31                        & 40                        & 200                       & 29.8       & 0.15                      & 0.1                       & 200                       \\ \hline
+        720           & 29                        & 40                        & 200                       & 28.9       & 0.14                      & 0.1                       & 200                       \\ \hline
+        500           & 18                        & 20                        & 100                       & 26.5       & 0.13                      & 0.1                       & 200                       \\ \hline
+        400           & 16                        & 20                        & 100                       & 24.4       & 0.12                      & 0.1                       & 200                       \\ \hline
+        300           & 10                        & 10                        & 50                        & 22         & 0.11                      & 0.1                       & 200                       \\ \hline
+        200           & 7.8                       & 10                        & 50                        & 17.08      & 0.085                     & 0.01                      & 20                        \\ \hline
+        50            & 5.2                       & 10                        & 50                        & 4.5        & 0.0225                    & 0.01                      & 20                        \\ \hline
     \end{tabular}
 \end{table}
 
 Nella configurazione con $I_b=200\mu A$, si misurano i seguenti valori per $V_{ce}$ e $I_c$:
-
-\begin{table}[H]
-    \centering
-    \begin{tabular}{|c|c|c|c|}
-        \hline
-        $I_c$ (mA) & errore $I_c$ (mA) & Risoluzione (mA) & Fondo scala (mA) \\ \hline
-        36.9       & 0.18              & 0.1              & 200              \\ \hline
-        36.5       & 0.18              & 0.1              & 200              \\ \hline
-        36         & 0.18              & 0.1              & 200              \\ \hline
-        35.6       & 0.18              & 0.1              & 200              \\ \hline
-        35.1       & 0.18              & 0.1              & 200              \\ \hline
-        34.7       & 0.17              & 0.1              & 200              \\ \hline
-        34.6       & 0.17              & 0.1              & 200              \\ \hline
-        34.2       & 0.17              & 0.1              & 200              \\ \hline
-        33.6       & 0.17              & 0.1              & 200              \\ \hline
-        33.6       & 0.17              & 0.1              & 200              \\ \hline
-        33.1       & 0.17              & 0.1              & 200              \\ \hline
-        32.5       & 0.16              & 0.1              & 200              \\ \hline
-        32.5       & 0.16              & 0.1              & 200              \\ \hline
-        32         & 0.16              & 0.1              & 200              \\ \hline
-        31.4       & 0.16              & 0.1              & 200              \\ \hline
-        31.2       & 0.16              & 0.1              & 200              \\ \hline
-        30.8       & 0.15              & 0.1              & 200              \\ \hline
-        30.6       & 0.15              & 0.1              & 200              \\ \hline
-        30.2       & 0.15              & 0.1              & 200              \\ \hline
-        29.8       & 0.15              & 0.1              & 200              \\ \hline
-        28.9       & 0.14              & 0.1              & 200              \\ \hline
-        26.5       & 0.13              & 0.1              & 200              \\ \hline
-        24.4       & 0.12              & 0.1              & 200              \\ \hline
-        22         & 0.11              & 0.1              & 200              \\ \hline
-        17.08      & 0.085             & 0.01             & 20               \\ \hline
-        4.5        & 0.0225            & 0.01             & 20               \\ \hline
-    \end{tabular}
-\end{table}
 
 
 \section{Analisi dati}
