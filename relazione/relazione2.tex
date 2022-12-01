@@ -16,9 +16,13 @@
 \end{abstract}
 
 \section{Introduzione}
+Per la misura è stato utilizato un transistor BJT di tipo pnp,.......; il transistor è in configurazione a base comune, con base
+e collettore collegati a due potenziometri e l'emettitore collegato a terra.\\
+Il circuito è realizzato con due potenziometri regolabili, uno regolante la corrente di base $I_b$ con una resitenza di $100k\Omega$, e uno regolante
+la corrente di collettore $I_c$, con resitenza pari a $1k\Omega$;
 
 \section{Dati}
-Nella configurazione con $I_b=200\mu A$, si misurano i seguenti valori per $V_{ce}$ e $I_c$:
+Nella configurazione con $I_b=-200\mu A$, si misurano i seguenti valori per $V_{ce}$ e $I_c$:
 \begin{table}[H]
     \centering
     \begin{tabular}{|l|l|l|l|l|l|l|l|l|}
@@ -51,11 +55,14 @@ Nella configurazione con $I_b=200\mu A$, si misurano i seguenti valori per $V_{c
         200           & 7.8                       & 10                        & 50                        &  & 17.08      & 0.085                     & 0.01                      & 20                        \\ \cline{1-4} \cline{6-9}
         50            & 5.2                       & 10                        & 50                        &  & 4.5        & 0.0225                    & 0.01                      & 20                        \\ \cline{1-4} \cline{6-9}
     \end{tabular}
+    \caption{I valori misurati per $V_{ce}$ e $I_c$, nel caso di $I_b=200 mA$}\label{Tabella 1}
+    \medskip
 \end{table}
 
-Nella configurazione con $I_b=100\mu A$, si misurano i seguenti valori per $V_{ce}$ e $I_c$:
+Nella configurazione con $I_b=-100\mu A$, si misurano i seguenti valori per $V_{ce}$ e $I_c$:
 \begin{table}[H]
     \centering
+
     \begin{tabular}{|l|l|l|l|l|l|l|l|l|}
         \cline{1-4} \cline{6-9}
         $V_{ce}$ (mV) & \begin{tabular}[c]{@{}c@{}}Errore V \\ (mV)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Risoluzione \\ (mV)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Fondo scala \\ (mV/div)\end{tabular} &  & $I_c$ (mA) & \begin{tabular}[c]{@{}c@{}}errore $I_c$  \\ (mA)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Risoluzione \\ (mA)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Fondo scala \\ (mA)\end{tabular} \\ \cline{1-4} \cline{6-9}
@@ -86,6 +93,8 @@ Nella configurazione con $I_b=100\mu A$, si misurano i seguenti valori per $V_{c
         200           & 8                         & 10                        & 50                         &  & 12.46      & 0.062                      & 0.01                       & 20                         \\ \cline{1-4} \cline{6-9}
         50            & 5                         & 10                        & 50                         &  & 3.19       & 0.016                      & 0.01                       & 20                         \\ \cline{1-4} \cline{6-9}
     \end{tabular}
+    \caption{I valori misurati per $V_{ce}$ e $I_c$, nel caso di $I_b=100 mA$}\label{Tabella 2}
+    \medskip
 \end{table}
 
 \section{Analisi dati}

@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1669917541 "/home/mettewh24/lab3/prova2/relazione/relazione2.tex" "/home/mettewh24/lab3/prova2/relazione/relazione2.pdf" "relazione2" 1669917541
+["pdflatex"] 1669926215 "/home/mettewh24/lab3/prova2/relazione/relazione2.tex" "/home/mettewh24/lab3/prova2/relazione/relazione2.pdf" "relazione2" 1669926216
   "/etc/texmf/web2c/texmf.cnf" 1620639687 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/mettewh24/lab3/prova2/relazione/relazione2.aux" 1669917541 294 27d7bdeb1576d0b7ba33ccbaead6a16a ""
-  "/home/mettewh24/lab3/prova2/relazione/relazione2.tex" 1669917539 14162 4dca29e03cfb363c028884e0b2f818b5 ""
+  "/home/mettewh24/lab3/prova2/relazione/relazione2.aux" 1669926216 680 358b18e2b51a7b3e42010e16f9ff2ef8 ""
+  "/home/mettewh24/lab3/prova2/relazione/relazione2.tex" 1669926215 14810 d52bae805020d6f16f43052fd8e9d917 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm" 1136768653 1328 5442e22a7072966dbaf88ca900acf3f0 ""
@@ -29,6 +29,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1248133631 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty" 1573336935 6902 30fdaf7dc5636b8e3afa306210c45cae ""
   "/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty" 1572645307 1057 525c2192b5febbd8c1f662c9468335bb ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1580683321 20023 e427dd9e17e239bf926ef3aab67fe35e ""
@@ -42,11 +43,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1669757475 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1669757496 8256285 d0a8abbc249622ccaf6989d117db9d70 ""
-  "relazione2.aux" 1669917541 294 27d7bdeb1576d0b7ba33ccbaead6a16a "pdflatex"
-  "relazione2.tex" 1669917539 14162 4dca29e03cfb363c028884e0b2f818b5 ""
+  "relazione2.aux" 1669926216 680 358b18e2b51a7b3e42010e16f9ff2ef8 "pdflatex"
+  "relazione2.tex" 1669926215 14810 d52bae805020d6f16f43052fd8e9d917 ""
   (generated)
-  "/home/mettewh24/lab3/prova2/relazione/relazione2.pdf"
-  "relazione2.pdf"
-  "/home/mettewh24/lab3/prova2/relazione/relazione2.log"
   "relazione2.log"
+  "/home/mettewh24/lab3/prova2/relazione/relazione2.log"
+  "relazione2.pdf"
+  "/home/mettewh24/lab3/prova2/relazione/relazione2.pdf"
   "relazione2.aux"
