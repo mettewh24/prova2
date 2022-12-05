@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1670184878 "/home/mettewh24/lab3/prova2/relazione/relazione2.tex" "/home/mettewh24/lab3/prova2/relazione/relazione2.pdf" "relazione2" 1670184879
+["pdflatex"] 1670272794 "/home/mettewh24/lab3/prova2/relazione/relazione2.tex" "/home/mettewh24/lab3/prova2/relazione/relazione2.pdf" "relazione2" 1670272794
   "/etc/texmf/web2c/texmf.cnf" 1620639687 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/mettewh24/lab3/prova2/relazione/relazione2.aux" 1670184879 1409 f9901fc8298bdd18589304b5456b642e ""
-  "/home/mettewh24/lab3/prova2/relazione/relazione2.tex" 1670184874 15111 f1b6ec6cdc9f4daf8faeaf5fe313dce2 ""
+  "/home/mettewh24/lab3/prova2/relazione/relazione2.aux" 1670272794 1409 f9901fc8298bdd18589304b5456b642e ""
+  "/home/mettewh24/lab3/prova2/relazione/relazione2.tex" 1670272793 15910 9b558947cb166001b4163e6509ac89b5 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -35,6 +35,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1248133631 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1248133631 32716 08e384dc442464e7285e891af9f45947 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty" 1573336935 6902 30fdaf7dc5636b8e3afa306210c45cae ""
   "/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty" 1572645307 1057 525c2192b5febbd8c1f662c9468335bb ""
@@ -63,11 +64,11 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1669757475 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1669757496 8256285 d0a8abbc249622ccaf6989d117db9d70 ""
   "Multigraph.png" 1670182664 16633 93d0b2a685bf204434caf0c21513845c ""
-  "relazione2.aux" 1670184879 1409 f9901fc8298bdd18589304b5456b642e "pdflatex"
-  "relazione2.tex" 1670184874 15111 f1b6ec6cdc9f4daf8faeaf5fe313dce2 ""
+  "relazione2.aux" 1670272794 1409 f9901fc8298bdd18589304b5456b642e "pdflatex"
+  "relazione2.tex" 1670272793 15910 9b558947cb166001b4163e6509ac89b5 ""
   (generated)
   "/home/mettewh24/lab3/prova2/relazione/relazione2.pdf"
+  "/home/mettewh24/lab3/prova2/relazione/relazione2.log"
   "relazione2.pdf"
   "relazione2.aux"
   "relazione2.log"
-  "/home/mettewh24/lab3/prova2/relazione/relazione2.log"
