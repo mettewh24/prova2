@@ -23,7 +23,7 @@ void micro_200() {
   TF1 *fit_grafico = new TF1("200", "[0]+x*[1]", V_min, V_max);
   h_200->Fit(fit_grafico, "R");
   h_200->Draw("ap");
-  c_200->Print("c_200.png", "R");
+  c_200->Print("c_200.png");
 
 
   gStyle->SetOptFit(1111);
