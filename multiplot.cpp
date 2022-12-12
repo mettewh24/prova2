@@ -48,7 +48,8 @@ void multiplot() {
 
   Double_t delta_I = (I_200_3V - I_100_3V) / 0.1;
   Double_t err_delta_I =
-      ((err_I_200_3V / I_200_3V) + (err_I_100_3V / I_100_3V)) * delta_I;
+      (((err_I_200_3V + err_I_100_3V) / (I_200_3V - I_100_3V)) + 0.02 / 0.1) *
+      delta_I;
   std::cout << '\n' << delta_I << " +- " << err_delta_I << '\n';
   mgraph->Draw("apl");
   t->Draw("SAME");
