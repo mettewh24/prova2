@@ -197,10 +197,14 @@ INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /home/mettewh24/lab3/prova2/relazione/table.tex
 INPUT /home/mettewh24/lab3/prova2/relazione/table.tex
+INPUT /home/mettewh24/lab3/prova2/relazione/Errore_multimetro.jpg
+INPUT /home/mettewh24/lab3/prova2/relazione/Errore_multimetro.jpg
+INPUT /home/mettewh24/lab3/prova2/relazione/Errore_multimetro.jpg
 INPUT /home/mettewh24/lab3/prova2/relazione/relazione2.aux
 INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
