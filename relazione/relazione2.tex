@@ -12,6 +12,7 @@
 \usepackage[italian]{babel}
 
 \setlength{\parindent}{20pt}
+\linespread{1.2}
 \title{Misura della caratteristica I-V di un transistor BJT}
 \author{Matteo Bonazzi, Massimo D'Alessandro Schmidt}
 
@@ -21,17 +22,23 @@
 \maketitle
 \begin{abstract}
     Misura della caratteristica I-V di un transistor BJT in configurazione a emettitore comune, in due valori della corrente di base.\newline
-    Dal fit lineare dei dati nella regione attiva, si ottengono i valori $V_{Ea,100\mu A}=(15.9\pm 0.9) V$ $g_{100 \mu A}=(1.09 \pm 0.06) m\Omega^{-1} $ per la configurazione con $I_b=100 \mu A$, $V_{Ea,200\mu A}=(13\pm 1) V $ $g_{200 \mu A}=(2.20 \pm 0.14) m\Omega^{-1}$ per la configurazione con $I_b=200 \mu A$.\\
-    Si stima il guadagno del circuito $\beta=(137\pm38)$.\\
+    Dal fit lineare dei dati nella regione attiva, si ottengono i valori $V_{Ea,100\,\mu A}=(15.9\pm 0.9) V$ $g_{100\,\mu A}=(1.09 \pm 0.06) m\Omega^{-1} $ per la configurazione con $I_b=100 \mu A$, $V_{Ea,200\,\mu A}=(13\pm 1) V $ $g_{200\,\mu A}=(2.20 \pm 0.14) m\Omega^{-1}$ per la configurazione con $I_b=200 \mu A$.\\
+    Si stima il guadagno del transistor $\beta=(137\pm38)$.\\
 \end{abstract}
 
 \section{Introduzione}
-Per la misura è stato utilizato un transistor BJT di tipo pnp, cioè un trasinsistor avente emettitore e colletore fatte di semiconduttore drogato p, e base di semiconduttore drogato n; il transistor è in configurazione a base comune, con base
+Per la misura è stato utilizato un transistor BJT di tipo pnp, cioè un transistor avente emettitore e colletore fatte di semiconduttore drogato p, e base di semiconduttore drogato n; il transistor è in configurazione a base comune, con base
 e collettore collegati a due potenziometri e l'emettitore collegato a terra.\\
 Si vogliono misurare la tensione di Early e la resistenza del transistor, da cui si ricava la conduttanza, e si vuole fornire una stima del guadagno in corrente del transistor;
-la corrente di Early corrisponde all'intercetta della retta definita dalla caratteristica I-V nella regione attiva, con l'asse delle tensioni.
+la corrente di Early corrisponde all'intercetta della retta definita dalla caratteristica I-V nella regione attiva, con l'asse delle tensioni.\\
 Il circuito è realizzato con due potenziometri regolabili, uno regolante la corrente di base $I_b$ con una resitenza di $100k\Omega$, e uno regolante
-la corrente di collettore $I_c$, con resitenza pari a $1k\Omega$;
+la corrente di collettore $I_c$, con resitenza pari a $1k\Omega$, come in figura.
+
+\begin{figure}[tb]
+    \centering
+    \includegraphics[width=0.4\textwidth]{circuito.jpg}
+    \caption{\centering\label{fig:circuito}Foto del circuito realizzato: in alto il potenziometro collegato al collettore, in basso quello collegato alla base; il collettore è collegato a terra.}
+\end{figure}
 
 \section{Materiali e strumenti}
 Sono stati utilizzati:
@@ -47,38 +54,40 @@ Sono stati utilizzati:
 
 
 \section{Analisi dati}
-\begin{figure}[H]
-    \begin{center}
-        \scalebox{0.7}{\input{multigraph1.tex}}
-        \caption{\label{fig:multigraph}Grafico delle caratterste I-V del transistor, nelle due configurazioni delle correnti di base $I_b$; per maggiore chiarezza grafica, di tutte la quantità è graficato l'opposto}
-    \end{center}
-\end{figure}
-Per $V_{ce}$ nel range $1-4 V$, cioè nella regione attiva del transistor, si opera un fit lineare del tipo:
+
+Per $V_{ce}$ nel range $1-4 V$, cioè nella regione attiva del transistor, si opera un fit lineare secondo la funzione:
 \begin{equation}
     V_{ce} = a + b I_c\\
 \end{equation}
-Dove a rappresenta la tensione di Early $V_{Ea}$, e b rappresenta la resistenza del circuito; dal fit si ottengono i seguenti valori:
+Dove a rappresenta la tensione di Early $V_{Ea}$, e b rappresenta la resistenza del circuito.\\
+\begin{figure}[H]
+    \begin{center}
+        \scalebox{0.7}{\input{multigraph1.tex}}
+        \caption{\centering\label{fig:multigraph}Grafico delle caratterste I-V del transistor, nelle due configurazioni delle correnti di base $I_b$; per maggiore chiarezza grafica, di tutte la quantità è graficato l'opposto}
+    \end{center}
+\end{figure}
+Dal fit si ottengono i seguenti valori:
 \begin{equation}
     \begin{aligned}
-        V_{Ea,100\mu A}=(15.9\pm 0.9) V  \\
-        R_{100\mu A}=(903 \pm 50) \Omega \\
+        V_{Ea,100\,\mu A}=(15.9\pm 0.9) \;V  \\
+        R_{100\,\mu A}=(903 \pm 50) \;\Omega \\
         \\
-        V_{Ea,200\mu A}=(13\pm 1) V      \\
-        R_{200\mu A}=(458 \pm 31) \Omega \\
+        V_{Ea,200\,\mu A}=(13\pm 1) \;V      \\
+        R_{200\,\mu A}=(458 \pm 31) \;\Omega \\
     \end{aligned}
 \end{equation}
 Dalle stime fornite dal fit è possibile ricavare i valori delle conduttanze, che risultano essere:
 \begin{equation}
     \begin{aligned}
-        g_{100 \mu A}=(1.09 \pm 0.06) m\Omega^{-1} \\
-        g_{200 \mu A}=(2.20 \pm 0.14) m\Omega^{-1} \\
+        g_{100 \,\mu A}=(1.09 \pm 0.06) \;m\Omega^{-1} \\
+        g_{200 \,\mu A}=(2.20 \pm 0.14) \;m\Omega^{-1} \\
     \end{aligned}
 \end{equation}
 Definendo il guadagno del trasinstor, a tensione fissata, come:
 \begin{equation}
-    \beta= \frac{\delta I_c}{\delta I_b}
+    \beta= \frac{\Delta I_c}{\Delta I_b}
 \end{equation}
-è possibile calclarne il valore a $V_{ce}=3 V$ che risulta pari a
+è possibile calclarne il valore a $V_{ce}=3 \;V$ che risulta pari a
 \begin{equation}
     \begin{aligned}
         \beta=(137\pm38)
@@ -86,7 +95,7 @@ Definendo il guadagno del trasinstor, a tensione fissata, come:
 \end{equation}
 
 \section{Conclusioni}
-Il guadagno stimato per il circuito è pari a $\beta=(137\pm38)$, mentre le tensioni di Early e i valori della conduttanza sono $V_{Ea,100\mu A}=(15.9\pm 0.9) V$ $V_{Ea,200\mu A}=(13\pm 1) V $ e $g_{100 \mu A}=(1.09 \pm 0.06) m\Omega^{-1} $ $g_{200 \mu A}=(2.20 \pm 0.14) m\Omega^{-1}$.\\
+Il guadagno stimato per il transistor è pari a $\beta=(137\pm38)$, mentre le tensioni di Early e i valori della conduttanza sono $V_{Ea,100\,\mu A}=(15.9\pm 0.9) \;V$ $V_{Ea,200\,\mu A}=(13\pm 1) \;V $ e $g_{100 \,\mu A}=(1.09 \pm 0.06) \;m\Omega^{-1} $ $g_{200 \, \mu A}=(2.20 \pm 0.14) \;m\Omega^{-1}$.\\
 I valori ottenuti per le tensioni di Early si collocano all'interno del range di valori tipici per transistor BJT, di circa 10-200V.
 
 

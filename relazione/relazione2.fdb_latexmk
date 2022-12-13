@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1670875156 "/home/mettewh24/lab3/prova2/relazione/relazione2.tex" "/home/mettewh24/lab3/prova2/relazione/relazione2.pdf" "relazione2" 1670875157
+["pdflatex"] 1670963610 "/home/mettewh24/lab3/prova2/relazione/relazione2.tex" "/home/mettewh24/lab3/prova2/relazione/relazione2.pdf" "relazione2" 1670963611
   "/etc/texmf/web2c/texmf.cnf" 1620639687 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/mettewh24/lab3/prova2/relazione/relazione2.aux" 1670875157 1986 19368763f614c3afe4d48a76291029b5 ""
-  "/home/mettewh24/lab3/prova2/relazione/relazione2.tex" 1670875156 4945 6db67f03763a50e08befe062122be442 ""
+  "/home/mettewh24/lab3/prova2/relazione/relazione2.aux" 1670963611 2295 a59d16e0c059290ed1f7c7559af0099d ""
+  "/home/mettewh24/lab3/prova2/relazione/relazione2.tex" 1670963608 5356 e9ff66ce4f15c4e16d03ed4b3a3a1bfd ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -147,13 +147,14 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1669757475 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1669757496 8256285 d0a8abbc249622ccaf6989d117db9d70 ""
   "Errore_multimetro.jpg" 1670872504 105739 9400c73c00394f7940662aefe5e582a7 ""
+  "circuito.jpg" 1670962208 136146 372649cd9f29b3a2487412c8fb4cc27a ""
   "multigraph1.tex" 1670607511 48768 d07d11868494101b9a06e312119f362c ""
-  "relazione2.aux" 1670875157 1986 19368763f614c3afe4d48a76291029b5 "pdflatex"
-  "relazione2.tex" 1670875156 4945 6db67f03763a50e08befe062122be442 ""
+  "relazione2.aux" 1670963611 2295 a59d16e0c059290ed1f7c7559af0099d "pdflatex"
+  "relazione2.tex" 1670963608 5356 e9ff66ce4f15c4e16d03ed4b3a3a1bfd ""
   "table.tex" 1670869858 13713 07da930fae250ca650e4e664054d8698 ""
   (generated)
-  "relazione2.pdf"
   "relazione2.aux"
-  "relazione2.log"
+  "relazione2.pdf"
   "/home/mettewh24/lab3/prova2/relazione/relazione2.log"
   "/home/mettewh24/lab3/prova2/relazione/relazione2.pdf"
+  "relazione2.log"
