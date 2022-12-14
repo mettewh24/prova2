@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1671047934 "/home/mettewh24/lab3/prova2/relazione/relazione2.tex" "/home/mettewh24/lab3/prova2/relazione/relazione2.pdf" "relazione2" 1671047935
+["pdflatex"] 1671049198 "/home/mettewh24/lab3/prova2/relazione/relazione2.tex" "/home/mettewh24/lab3/prova2/relazione/relazione2.pdf" "relazione2" 1671049200
   "/etc/texmf/web2c/texmf.cnf" 1620639687 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/mettewh24/lab3/prova2/relazione/relazione2.aux" 1671047935 2294 da14e6760e79ed8fd131695ae32bc0c3 ""
-  "/home/mettewh24/lab3/prova2/relazione/relazione2.tex" 1671047933 6083 e9d8c5a947bfafffa55717db14266a25 ""
+  "/home/mettewh24/lab3/prova2/relazione/relazione2.aux" 1671049200 2294 d78dc5823d66b461155ca63d6dc9efe8 ""
+  "/home/mettewh24/lab3/prova2/relazione/relazione2.tex" 1671049195 6469 5a1c8c4c05f1789b95c61b9a3c5c862d ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -149,12 +149,12 @@
   "Errore_multimetro.jpg" 1670872504 105739 9400c73c00394f7940662aefe5e582a7 ""
   "circuito.jpg" 1671047358 77573 fe973c2a05f5a4b18cbe360638b0a4f2 ""
   "multigraph1.tex" 1670607511 48768 d07d11868494101b9a06e312119f362c ""
-  "relazione2.aux" 1671047935 2294 da14e6760e79ed8fd131695ae32bc0c3 "pdflatex"
-  "relazione2.tex" 1671047933 6083 e9d8c5a947bfafffa55717db14266a25 ""
+  "relazione2.aux" 1671049200 2294 d78dc5823d66b461155ca63d6dc9efe8 "pdflatex"
+  "relazione2.tex" 1671049195 6469 5a1c8c4c05f1789b95c61b9a3c5c862d ""
   "table.tex" 1670869858 13713 07da930fae250ca650e4e664054d8698 ""
   (generated)
+  "relazione2.pdf"
+  "relazione2.aux"
+  "relazione2.log"
   "/home/mettewh24/lab3/prova2/relazione/relazione2.log"
   "/home/mettewh24/lab3/prova2/relazione/relazione2.pdf"
-  "relazione2.pdf"
-  "relazione2.log"
-  "relazione2.aux"
