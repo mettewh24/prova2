@@ -193,8 +193,8 @@ INPUT /home/mettewh24/lab3/prova2/relazione/circuito.jpg
 INPUT /home/mettewh24/lab3/prova2/relazione/circuito.jpg
 OUTPUT /home/mettewh24/lab3/prova2/relazione/relazione2.pdf
 INPUT /home/mettewh24/lab3/prova2/relazione/circuito.jpg
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT /home/mettewh24/lab3/prova2/relazione/multigraph1.tex
 INPUT /home/mettewh24/lab3/prova2/relazione/multigraph1.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm

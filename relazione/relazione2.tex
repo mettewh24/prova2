@@ -33,13 +33,14 @@ Si vogliono misurare la tensione di Early e la resistenza del transistor, da cui
 la corrente di Early corrisponde all'intercetta della retta definita dalla caratteristica I-V nella regione attiva, con l'asse delle tensioni.\\
 Il circuito è realizzato con due potenziometri regolabili, uno regolante la corrente di base $I_b$ con una resitenza di $100k\Omega$, e uno regolante
 la corrente di collettore $I_c$, con resitenza pari a $1k\Omega$, come in figura.
-
-\begin{figure}[tb]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.4\textwidth]{circuito.jpg}
-    \caption{\centering\label{fig:circuito}Foto del circuito realizzato: in alto il potenziometro collegato al collettore, in basso quello collegato alla base; il collettore è collegato a terra.}
+    \includegraphics[width=0.3\textwidth]{circuito.jpg}
+    \caption{\centering\label{fig:circuito}Foto del circuito realizzato: in alto il potenziometro collegato al collettore, in basso quello collegato alla base; l'emettitore è collegato a terra.}
 \end{figure}
-
+Inizialmente si misura la resistenza di base tramite il multimetro, fissandola a $50 \mu A$, per non bruciare il transistor, e poi si fissa $I_b$ al valore desiderato, misurando la corrente con il multimetro collegato tra i punti B e D.
+Prima di misurare la caratteristica è necessario collegare il multimetro ai punti A e C, e l'oscilloscopio al punto C (e al ground); si procede variando la resistenza del potenziometro collegato al collettore e si registrano i valori di voltaggio, dati dall'oscilloscopio, e i valori di corrente, forniti dal multimetro.
+È stato scelto di effettuare la maggior parte delle misure nel range $-1~-3 V$, corrispondente alla regione attiva del transistor, per avere una miglior stima del fit.
 \section{Materiali e strumenti}
 Sono stati utilizzati:
 \begin{itemize}
@@ -85,7 +86,7 @@ Dalle stime fornite dal fit è possibile ricavare i valori delle conduttanze, ch
 \end{equation}
 Definendo il guadagno del trasinstor, a tensione fissata, come:
 \begin{equation}
-    \beta= \frac{\Delta I_c}{\Delta I_b}
+    \beta= \frac{\Delta I_c(V)}{\Delta I_b}
 \end{equation}
 è possibile calclarne il valore a $V_{ce}=3 \;V$ che risulta pari a
 \begin{equation}
