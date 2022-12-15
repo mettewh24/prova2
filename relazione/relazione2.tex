@@ -6,6 +6,15 @@
 \usepackage{graphicx}
 \usepackage{longtable}
 \usepackage{tikz}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Misura della caratteristica I-V di un transistor BJT},
+    pdfpagemode=FullScreen,
+}
 \usetikzlibrary{patterns}
 \usetikzlibrary{plotmarks}
 
@@ -14,33 +23,32 @@
 \setlength{\parindent}{20pt}
 \linespread{1.2}
 \title{Misura della caratteristica I-V di un transistor BJT}
-\author{Matteo Bonazzi, Massimo D'Alessandro Schmidt}
-
+\author{Matteo Bonazzi, Massimo D'Alessandro Schmidt\\ Turno 2, tavolo 12}
 
 \begin{document}
-
 \maketitle
 \begin{abstract}
     Misura della caratteristica I-V di un transistor BJT in configurazione a emettitore comune, in due valori della corrente di base.\newline
     Dal fit lineare dei dati nella regione attiva, si ottengono i valori $V_{Ea,-100 \,\mu A}=(15.9\pm 0.9) V$ $g_{-100 \,\mu A}=(1.09 \pm 0.06) m\Omega^{-1} $ per la configurazione con $I_b=-100 \mu A$, $V_{Ea,-200 \,\mu A}=(13\pm 1) V $ $g_{-200 \,\mu A}=(2.20 \pm 0.14) m\Omega^{-1}$ per la configurazione con $I_b=-200 \mu A$.\\
     Si stima il guadagno del transistor $\beta=(137\pm38)$.\\
 \end{abstract}
-
+\tableofcontents
 \section{Introduzione}
 Per la misura è stato utilizato un transistor BJT di tipo pnp, cioè un transistor avente emettitore e colletore fatte di semiconduttore drogato p, e base di semiconduttore drogato n; il transistor è in configurazione a base comune, con base
 e collettore collegati a due potenziometri e l'emettitore collegato a terra.\\
 Si vogliono misurare la tensione di Early e la resistenza del transistor, da cui si ricava la conduttanza, e si vuole fornire una stima del guadagno in corrente del transistor;
 la corrente di Early corrisponde all'intercetta della retta definita dalla caratteristica I-V nella regione attiva, con l'asse delle tensioni.\\
 Il circuito è realizzato con due potenziometri regolabili, uno regolante la corrente di base $I_b$ con una resitenza di $100k\Omega$, e uno regolante
-la corrente di collettore $I_c$, con resitenza pari a $1k\Omega$, come in figura.
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.3\textwidth]{circuito.jpg}
-    \caption{\centering\label{fig:circuito}Foto del circuito realizzato: in alto il potenziometro collegato al collettore, in basso quello collegato alla base; l'emettitore è collegato a terra.}
-\end{figure}
+la corrente di collettore $I_c$, con resitenza pari a $1k\Omega$, come in \hyperref[fig:circuito]{Figura 1}.\par
+
 Inizialmente si misura la resistenza di base tramite il multimetro, fissandola a $-50 \mu A$, per non bruciare il transistor, e poi si fissa $I_b$ al valore desiderato, misurando la corrente con il multimetro collegato tra i punti B e D.
 Prima di misurare la caratteristica è necessario collegare il multimetro ai punti A e C, e l'oscilloscopio al punto C (e al ground); si procede variando la resistenza del potenziometro collegato al collettore e si registrano i valori di voltaggio, dati dall'oscilloscopio, e i valori di corrente, forniti dal multimetro.
 È stato scelto di effettuare la maggior parte delle misure nel range $-1 \sim -3 V$, corrispondente alla regione attiva del transistor, per avere una miglior stima del fit; poichè è noto che tutte le grandezze di tensione e corrente misurate sul transistor in questa configurazione sono negative, nel seguito si sceglie di tralasciare il loro segno.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{circuito.jpg}
+    \caption{\label{fig:circuito}\centering Foto del circuito realizzato: in alto il potenziometro collegato al collettore, in basso quello collegato alla base; l'emettitore è collegato a terra.}
+\end{figure}
 \section{Materiali e strumenti}
 Sono stati utilizzati:
 \begin{itemize}
