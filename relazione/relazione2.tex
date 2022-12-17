@@ -7,6 +7,7 @@
 \usepackage{longtable}
 \usepackage{tikz}
 \usepackage{hyperref}
+
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
@@ -33,11 +34,11 @@
     Si stima il guadagno del transistor $\beta=(137\pm38)$.\\
 \end{abstract}
 \tableofcontents
+\newpage
 \section{Introduzione}
 Per la misura è stato utilizato un transistor BJT di tipo pnp, cioè un transistor avente emettitore e colletore fatte di semiconduttore drogato p, e base di semiconduttore drogato n; il transistor è in configurazione a base comune, con base
-e collettore collegati a due potenziometri e l'emettitore collegato a terra.\\
-Si vogliono misurare la tensione di Early e la resistenza del transistor, da cui si ricava la conduttanza, e si vuole fornire una stima del guadagno in corrente del transistor;
-la corrente di Early corrisponde all'intercetta della retta definita dalla caratteristica I-V nella regione attiva, con l'asse delle tensioni.\\
+e collettore collegati a due potenziometri e l'emettitore collegato a terra. Si vogliono misurare la tensione di Early e la resistenza del transistor, da cui si ricava la conduttanza, e si vuole fornire una stima del guadagno in corrente del transistor;
+la corrente di Early corrisponde all'intercetta della retta definita dalla caratteristica I-V nella regione attiva, con l'asse delle tensioni.\par
 Il circuito è realizzato con due potenziometri regolabili, uno regolante la corrente di base $I_b$ con una resitenza di $100k\Omega$, e uno regolante
 la corrente di collettore $I_c$, con resitenza pari a $1k\Omega$, come in \hyperref[fig:circuito]{Figura 1}.\par
 
@@ -49,6 +50,7 @@ Prima di misurare la caratteristica è necessario collegare il multimetro ai pun
     \includegraphics[width=0.3\textwidth]{circuito.jpg}
     \caption{\label{fig:circuito}\centering Foto del circuito realizzato: in alto il potenziometro collegato al collettore, in basso quello collegato alla base; l'emettitore è collegato a terra.}
 \end{figure}
+\newpage
 \section{Materiali e strumenti}
 Sono stati utilizzati:
 \begin{itemize}
@@ -61,7 +63,6 @@ Sono stati utilizzati:
 \end{itemize}
 
 
-\newpage
 \section{Analisi dati}
 
 Per $V_{ce}$ nel range $1-4 V$, cioè nella regione attiva del transistor, si opera un fit lineare secondo la funzione:
@@ -75,7 +76,7 @@ Dove a rappresenta la tensione di Early $V_{Ea}$, e b rappresenta la resistenza 
         \caption{\centering\label{fig:multigraph}Grafico delle caratterste I-V del transistor, nelle due configurazioni delle correnti di base $I_b$; per maggiore chiarezza grafica, di tutte la quantità è graficato l'opposto}
     \end{center}
 \end{figure}
-Dal fit si ottengono i seguenti valori:
+\noindent Dal fit si ottengono i seguenti valori:
 \begin{equation}
     \begin{aligned}
         V_{Ea,-100 \,\mu A}=(15.9\pm 0.9) \;V  \\
@@ -111,14 +112,14 @@ I valori ottenuti per le tensioni di Early si si discostano dal range tipico di 
 
 \subsection{Dati sperimentali}
 \input{table}
-
+\newpage
 \subsection{Calcolo degli errori}
 Per il calcolo degli errori sulle correnti, si fa riferimento alle informazioni fornite dal costruttore del multimetro:
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{Errore_multimetro.jpg}
 \end{figure}
-Per il calcolo degli errori sul multimetro, si utilizza la seguente formula:
+\noindent Per il calcolo degli errori sul multimetro, si utilizza la seguente formula:
 \begin{equation}
     \sigma=\sqrt{\sigma_c^2+\sigma_l^2+\sigma_z^2}
 \end{equation}
